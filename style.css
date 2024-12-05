@@ -1,0 +1,108 @@
+body {
+    margin: 10px 50px 0 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    user-select: none;
+    background-color: #F5F5DC;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+}
+
+hr {
+    border: 0.5px solid rgb(203, 203, 203);
+}
+
+nav {
+    position: fixed;
+    text-align: center;
+    left: 0;
+    top: 0;
+    padding: 5px;
+    height: 100%;
+    background-color: #8BC34A;
+}
+
+nav a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    margin-top: 5px;
+    border-radius: 50%;
+    background-color: white;
+    padding: 6px;
+    border: 2px solid #795548;
+}
+
+nav a span {
+    position: absolute;
+    background-color: white;
+    border: 1px solid #795548;
+    color: black;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 10px;
+    opacity: 0;
+    user-select: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.3s;
+}
+
+nav a:hover span {
+    opacity: 1;
+    margin-left: 43px;
+}
+
+nav a img {
+    width: 30px;
+    height: 30px;
+}
+
+p {
+    color: gray;
+    width: 40%;
+}
+
+ul {
+    color: gray;
+}
+
+/* Image Carousel CSS */
+
+.image-carousel {
+    float: right;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+/* Menu Item CSS */
+
+.menu-item {
+    width: 350px;
+    display: inline-flex;
+    margin: 5px;
+    align-items: center;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.menu-item h2 {
+    margin: 0;
+}
+
+.menu-item p {
+    font-size: 14px;
+    width: 70%;
+    color: gray;
+    font-weight: normal;
+}
+
+.menu-item img {
+    border-radius: 50%;
+    border: 2px solid #795548;
+    width: 100px;
+    height: auto;
+}
