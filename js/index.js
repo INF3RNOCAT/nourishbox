@@ -4,6 +4,7 @@ const images = [
     "southwest.jpg"
 ]
 
+var carousel = document.getElementById("imageCarousel");
 var index = 1;
 
 setInterval(function() {
