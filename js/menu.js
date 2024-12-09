@@ -74,41 +74,40 @@ const BorgirCarousel = document.getElementById("BorgirCarousel");
 
 setInterval(function() {
     if (index > images.length - 1) index = 0;
-    ChickenCarousel.src = "./img/" + grilledchicken[index];
+    ChickenCarousel.src = grilledchicken[index];
 }, 5000);
 
 setInterval(function() {
     if (index > images.length - 1) index = 0;
-    SalmonCarousel.src = "./img/" + bakedsalmon[index];
+    SalmonCarousel.src = bakedsalmon[index];
 }, 5000);
 
 setInterval(function() {
     if (index > images.length - 1) index = 0;
-    StirFryCarousel.src = "./img/" + beefstirfry[index];
+    StirFryCarousel.src = beefstirfry[index];
 }, 5000);
 
 setInterval(function() {
     if (index > images.length - 1) index = 0;
-    ShrimpTacoCarousel.src = "./img/" + shrimptacos[index];
+    ShrimpTacoCarousel.src = shrimptacos[index];
 }, 5000);
 
 setInterval(function() {
     if (index > images.length - 1) index = 0;
-    ChickAlfredoCarousel.src = "./img/" + chickenalfredo[index];
+    ChickAlfredoCarousel.src = chickenalfredo[index];
 }, 5000);
 
 setInterval(function() {
     if (index > images.length - 1) index = 0;
-    SpagetBologneseCarousel.src = "./img/" + spaghettibolognese[index];
+    SpagetBologneseCarousel.src = spaghettibolognese[index];
 }, 5000);
 
 setInterval(function() {
     if (index > images.length - 1) index = 0;
-    RoastBeefCarousel.src = "./img/" + roastbeef[index];
+    RoastBeefCarousel.src = roastbeef[index];
 }, 5000);
 
 setInterval(function() {
     if (index > images.length - 1) index = 0;
-    BorgirCarousel.src = "./img/" + borgir[index];
-    index++;
+    BorgirCarousel.src =  borgir[index];
 }, 5000);
